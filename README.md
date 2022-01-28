@@ -1,6 +1,10 @@
 # SceneKit 展示3D模型调研
 
 
+## 运行效果
+
+![](./resource/demo.gif)
+
 ## 一、前言
 
 Scene Kit 是一个 Objective-C 框架高性能渲染引擎。 Scene Kit 支持导入 3D 资源文件的导入、操作和渲染，不需要像 OpenGL 那样渲染场景的确切步骤。
@@ -147,7 +151,7 @@ SCNScene 为游戏中的场景,简单的说,就是放的游戏元素(地图,灯�
 SCNAction 主要负责改变节点的属性,比如我们要让一个地球围绕太阳旋转,一个气球从一个地方移动另外一个地方。
 
 
-## 六、遇到的坑，以及爬坑过程
+## 六、爬坑过程
 
 1、设置 `allowsCameraControl = true` 后出现多个双指，3指都能滑动问题
 
@@ -302,9 +306,6 @@ sceneView.scene?.rootNode.addChildNode(light2)
 - 出场动画 镜头归位时动作太大
 
 
-## 运行效果
-
-![](./resource/demo.gif)
 
 
 
